@@ -31,5 +31,6 @@ describe "Roman number" do
   it "converts complex numbers" do
     expect(Roman.new.rom_to_num('MCMXLIV')).to eq (1944)
     expect(Roman.new.rom_to_num('MCMXCVIII')).to eq (1998)
+    expect(Roman.new.rom_to_num('MCMXCIX')).to eq (1999)
   end
 end
