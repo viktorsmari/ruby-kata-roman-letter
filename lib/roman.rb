@@ -14,15 +14,15 @@ class Roman
   def convert_one(letter)
     case letter
     when 'I'
-      (next_letter('V') || next_letter('X'))? -1 : 1
+      (next_letter('V') || next_letter('X')) ? -1 : 1
     when 'V'
       5
     when 'X'
-      (next_letter('L') || next_letter('C'))? -10 : 10
+      (next_letter('L') || next_letter('C')) ? -10 : 10
     when 'L'
       50
     when 'C'
-      (next_letter('D') || next_letter('M'))? -100 : 100
+      (next_letter('D') || next_letter('M')) ? -100 : 100
     when 'D'
       500
     when 'M'
