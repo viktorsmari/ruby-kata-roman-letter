@@ -19,6 +19,12 @@ describe "Roman number" do
   end
 
   it "should be able to withdraw negative number" do
-    #expect(Roman.new.rom_to_num('IV')).to eq (4)
+    expect(Roman.new.rom_to_num('IV')).to eq (4)
+    expect(Roman.new.rom_to_num('IX')).to eq (9)
+    expect(Roman.new.rom_to_num('IX')).to eq (9)
+    expect(Roman.new.rom_to_num('XL')).to eq (40)
+    expect(Roman.new.rom_to_num('XC')).to eq (90)
+    expect(Roman.new.rom_to_num('CD')).to eq (400)
+    expect(Roman.new.rom_to_num('CM')).to eq (900)
   end
 end
