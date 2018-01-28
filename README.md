@@ -14,7 +14,7 @@ Steps to achieve this scaffold
 
 `touch lib/roman.rb`
 
-`guard init`
+`guard init` or `guard init rspec`
 
 Edit Guardfile, replace 'test' folder with 'spec' folder
 
